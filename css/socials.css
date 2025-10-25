@@ -1,0 +1,23 @@
+.header {
+    padding: 30px 0;
+}
+
+.socials {
+    display: flex;
+    gap: 20px;
+}
+
+.socials__item {
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.socials__link {
+    display: flex;
+    transition: 0.3s;
+}
+
+.socials__link:hover {
+    transform: rotate(30deg);
+}

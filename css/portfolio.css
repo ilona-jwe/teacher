@@ -1,0 +1,32 @@
+.portfolio {
+    background-color: #be9ac9;
+}
+
+.portfolio__list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.portfolio__item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    max-height: 450px;
+    align-content: space-between;
+    gap: 10px;
+}
+
+.portfolio__item-title {
+    font-size: 24px;
+}
+
+.portfolio__item-subtitle {
+    display: flex;
+    max-width: 700px;
+    font-size: 18px;
+}
+
+.portfolio__photo {
+    max-width: 300px;
+}

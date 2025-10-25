@@ -1,0 +1,22 @@
+.activity {
+    background-color: #be9ac9;
+}
+
+.activity__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.activity__link {
+    display: flex;
+    padding: 25px 15px;
+    background-color: #f0c8d4;
+    border-radius: 50px;
+    font-size: 18px;
+    box-shadow: 3px 3px 0;
+}
+
+.activity__link:active {
+    box-shadow: 1px 1px 1px;
+}
