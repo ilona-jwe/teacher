@@ -7,6 +7,7 @@
     flex-wrap: wrap;
     max-height: 850px;
     align-content: space-between;
+    row-gap: 15px;
 }
 .hero__title {
     font-weight: 500;
@@ -37,3 +38,4 @@
     cursor: pointer;
     margin: 30px;
 }
+
